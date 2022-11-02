@@ -62,3 +62,32 @@
 .imageList::-webkit-scrollbar-track {
   border-radius: 10px;  
 }
+
+.hover:hover{
+  background-color: inherit !important;
+}
+
+/* @media (min-width:1240px){
+  .inputs{
+    width: 80%!important;
+  }
+} */
+
+.inputs{
+  padding-left: 10px;
+  height: 40px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: inherit;
+  outline: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.input:hover{
+  list-style: none;
+  background-color: inherit;
+}
+
+.input:focus{
+  list-style: none;
+  background-color: inherit;
+}
