@@ -1,0 +1,24 @@
+header {
+    height: 90px;
+    width: calc(100dvw - 5dvw * 2);
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5dvw;
+    align-items: center;
+    position: fixed;
+    z-index: 50;
+}
+
+img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    header {
+        padding-right: 5dvw;
+        padding-left: 0dvw;
+    }
+}

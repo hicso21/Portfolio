@@ -1,0 +1,75 @@
+article {
+    height: calc(100dvh - 90px);
+    margin-top: 90px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 1s ease;
+}
+
+h2 {
+    font-size: 70px;
+    margin-block: 0px;
+    font-weight: 900;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: 450;
+    margin-block: 0px;
+}
+
+.about-title{
+    font-size: 30px;
+    margin-block: 25px;
+}
+
+h5 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.project-short-description {
+    font-size: 14px;
+}
+
+span {
+    font-size: 12px;
+}
+
+@media (max-width: 800px) {
+    section {
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: calc(100dvw - 18dvw * 2);
+        padding-inline: 18dvw;
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 50px;
+    }
+
+    .about-title{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .about-paragraph {
+        font-size: 14px;
+    }
+
+    .projects-title {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+}
