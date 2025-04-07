@@ -159,6 +159,7 @@ div.divider {
     font-size: 20px;
     cursor: pointer;
     transition: all 0.25s ease;
+    transform: scale(1.8);
 }
 
 #modal .modalContent .close:hover {
@@ -167,10 +168,6 @@ div.divider {
 
 #modal .modalContent .close:focus {
     outline: none;
-}
-
-#modal .modalContent .close {
-    transform: scale(1.8);
 }
 
 .projects {
@@ -372,6 +369,13 @@ img {
     }
 
     .projects-list {
-        padding-inline: 0dvw;
+        width: 90dvw;
+        padding-inline: 5dvw;
+    }
+
+    #modal .modalContent .close {
+        top: calc(4dvh);
+        right: calc(9dvw);
+        color: red;
     }
 }

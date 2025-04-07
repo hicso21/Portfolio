@@ -33,6 +33,11 @@ h3 {
     margin-block: 25px;
 }
 
+.projects-title {
+    font-size: 30px;
+    margin-block: 25px;
+}
+
 h5 {
     font-size: 16px;
     margin: 0;
@@ -70,6 +75,6 @@ span {
 
     .projects-title {
         font-size: 18px;
-        margin: 10px 0;
+        margin: 10px 5dvw;
     }
 }
